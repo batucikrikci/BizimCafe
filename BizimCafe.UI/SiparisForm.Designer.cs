@@ -99,7 +99,7 @@
             this.Column3,
             this.Column4,
             this.Tutar});
-            this.dgvSiparisDetaylar.Location = new System.Drawing.Point(12, 61);
+            this.dgvSiparisDetaylar.Location = new System.Drawing.Point(12, 59);
             this.dgvSiparisDetaylar.Name = "dgvSiparisDetaylar";
             this.dgvSiparisDetaylar.ReadOnly = true;
             this.dgvSiparisDetaylar.RowTemplate.Height = 25;
@@ -160,6 +160,7 @@
             this.btnTasi.TabIndex = 7;
             this.btnTasi.Text = "TAŞI";
             this.btnTasi.UseVisualStyleBackColor = true;
+            this.btnTasi.Click += new System.EventHandler(this.btnTasi_Click);
             // 
             // cbxMasaNo
             // 

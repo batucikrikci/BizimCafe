@@ -85,12 +85,7 @@ namespace BizimCafe.UI
         {
             new UrunlerForm(Db).ShowDialog();
         }
-
-        private void AnaForm_FormClosing_1(object sender, FormClosingEventArgs e)
-        {
-           
-        }
-
+               
         private void AnaForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             string json = JsonSerializer.Serialize(Db);
